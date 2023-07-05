@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.hdqwalls.com/wallpapers/forms-abstract-4k-09.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+.white-square {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  color: green;
+  font-size: 25px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  background-color: green;
+  color: rgb(255, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  background-color: green;
+  color: rgb(30, 255, 0);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-container input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: rgb(20, 62, 214);
+}
+
+.input-container input:hover {
+  background-color: green;
+}
+
+.input-container input::placeholder {
+  color: white;
+}
+
+input,
+textarea {
+  color: green;
+  font-size: 20px;
+}
